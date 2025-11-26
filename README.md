@@ -32,7 +32,10 @@ You can think of each Markdown file as a chapter.
   Explains joins (inner, left, right, full), aggregation with GROUP BY, filtering aggregated results with HAVING, and simple subqueries.
 
 - `sql_advanced.md`
-  Covers Common Table Expressions (CTEs), window functions such as RANK and ROW_NUMBER, more complex subqueries, and patterns like top N per group.
+  Covers Common Table Expressions (CTEs), window functions such as RANK, DENSE_RANK, and ROW_NUMBER, more complex subqueries, and patterns like top N per group.
+
+- `sql_oracle.md`
+  Covers Oracle-specific SQL features including the KEEP (DENSE_RANK FIRST/LAST) clause, FIRST_VALUE and LAST_VALUE window functions, ROWNUM, FETCH FIRST, NVL, NVL2, and DECODE.
 
 ### Python + SQL
 
@@ -105,16 +108,17 @@ A good order to read and practice is:
 1. `sql_basics.md`
 2. `sql_intermediate.md`
 3. `sql_advanced.md`
-4. `python_sql.md`
-5. `python_pandas_basics.md`
-6. `python_matplotlib.md`
-7. `python_plotly.md`
-8. `ml_overview_banking.md`
-9. `ml_linear_regression.md`
-10. `ml_logistic_regression.md`
-11. `ml_decision_trees.md`
-12. `ml_random_forest.md`
-13. `ml_gradient_boosting.md`
+4. `sql_oracle.md` (optional, if you use Oracle Database)
+5. `python_sql.md`
+6. `python_pandas_basics.md`
+7. `python_matplotlib.md`
+8. `python_plotly.md`
+9. `ml_overview_banking.md`
+10. `ml_linear_regression.md`
+11. `ml_logistic_regression.md`
+12. `ml_decision_trees.md`
+13. `ml_random_forest.md`
+14. `ml_gradient_boosting.md`
 
 For each file:
 
